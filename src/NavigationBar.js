@@ -15,7 +15,7 @@ const NavigationBar = () => {
       <div style={{ display: "flex", gap: "25px" }}>
         <Link to="/" style={linkStyle} onMouseEnter={(e) => e.target.style.color = hoverStyle.color} onMouseLeave={(e) => e.target.style.color = linkStyle.color}>Home</Link>
         <Link to="/about" style={linkStyle} onMouseEnter={(e) => e.target.style.color = hoverStyle.color} onMouseLeave={(e) => e.target.style.color = linkStyle.color}>About</Link>
-        <Link to="/about" style={linkStyle} onMouseEnter={(e) => e.target.style.color = hoverStyle.color} onMouseLeave={(e) => e.target.style.color = linkStyle.color}>News</Link>
+        <Link to="/Event" style={linkStyle} onMouseEnter={(e) => e.target.style.color = hoverStyle.color} onMouseLeave={(e) => e.target.style.color = linkStyle.color}>Event</Link>
       </div>
     </nav>
   );

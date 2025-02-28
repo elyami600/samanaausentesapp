@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Styles from "./about.module.css";
+import samanaImg1 from './samana_img/images (1).jpeg';
+import samanaImg2 from './samana_img/download.jpeg';
+import samanaImg3 from './samana_img/images (3).jpeg';
+import samanaImg4 from './samana_img/images (2).jpeg';
+import samanaImg5 from './samana_img/imagessmaasas.jpeg';
 
 const Home = () => {
     return(
@@ -8,68 +13,70 @@ const Home = () => {
             <div className={Styles.Home_section} style={{ backgroundColor: "#f9f9f9", padding: "40px", borderRadius: "10px", marginBottom: "30px" }}>
                 <div className={Styles.Home_hero}>
                     <div className={Styles.Home_hero_left}>
-                        <h1>🌎 Samana En El Exterior</h1>
+                        <h1>🌎 Descubre Samaná</h1>
                         <p>
-                            <strong>Samanenses Ausentes</strong> es más que un evento, es un movimiento que une a
-                            todos los samanenses en el exterior para celebrar nuestra identidad, cultura y lazos familiares.
+                            Samaná es una joya natural de la República Dominicana, famosa por sus playas, montañas y rica historia.
+                            Desde la llegada de Cristóbal Colón hasta la cultura vibrante de hoy, este rincón del Caribe es un lugar único.
                         </p>
                     </div>
                     <div className={Styles.Home_hero_right}>
-                        <img src="https://picsum.photos/500/300" alt="Sobre nosotros" style={{ borderRadius: "50%", boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)" }} />
+                        <img src={samanaImg1} alt="Descubre Samaná" style={{ borderRadius: "50%", boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)", width: "100%" }} />
                     </div>
                 </div>
             </div>
             <div className={Styles.Home_section} style={{ display: "flex", flexDirection: "row-reverse", backgroundColor: "#fff3e6", padding: "40px", borderRadius: "10px", marginBottom: "30px" }}>
                 <div className={Styles.Home_hero}>
                     <div className={Styles.Home_hero_left}>
-                        <h1>🎉 Tradiciones y Cultura</h1>
+                        <h1>🎉 Historia y Cultura</h1>
                         <p>
-                            Nuestra comunidad mantiene vivas las costumbres y tradiciones de Samaná, celebrando su
-                            historia y herencia cultural en cada encuentro.
+                            Desde la llegada de los españoles en 1493 hasta la inmigración afroamericana en el siglo XIX, Samaná ha sido
+                            un crisol de culturas. Su pasado colonial, junto con su fuerte identidad afrocaribeña, la hacen única.
                         </p>
                     </div>
                     <div className={Styles.Home_hero_right}>
-                        <img src="https://picsum.photos/600/500?random=1" alt="Tradiciones" style={{ borderRadius: "20px", boxShadow: "0px 6px 12px rgba(0, 0, 0, 0.3)" }} />
+                        <img src={samanaImg2} alt="Historia y Cultura" style={{ borderRadius: "20px", boxShadow: "0px 6px 12px rgba(0, 0, 0, 0.3)", width: "100%" }} />
                     </div>
                 </div>
             </div>
             <div className={Styles.Home_section} style={{ backgroundColor: "#e6f7ff", padding: "40px", borderRadius: "10px", marginBottom: "30px" }}>
                 <div className={Styles.Home_hero}>
                     <div className={Styles.Home_hero_left}>
-                        <h1>🌟 Conexión y Comunidad</h1>
+                        <h1>🌟 Belleza Natural</h1>
                         <p>
-                            Más que un evento, somos una red de apoyo que une a los samanenses en todo el mundo,
-                            compartiendo momentos especiales y fortaleciendo nuestros lazos.
+                            Samaná es hogar de majestuosas montañas, cascadas impresionantes y playas de arena blanca. Además,
+                            cada invierno, cientos de ballenas jorobadas visitan sus costas, brindando un espectáculo único en el mundo.
                         </p>
                     </div>
                     <div className={Styles.Home_hero_right}>
-                        <img src="https://picsum.photos/700/450?random=2" alt="Comunidad" style={{ borderRadius: "10px 50px 10px 50px", boxShadow: "0px 6px 12px rgba(0, 0, 0, 0.3)" }} />
+                        <img src={samanaImg3} alt="Belleza Natural" style={{ borderRadius: "10px 50px 10px 50px", boxShadow: "0px 6px 12px rgba(0, 0, 0, 0.3)", width: "100%" }} />
                     </div>
                 </div>
             </div>
             <div className={Styles.Home_section} style={{ display: "flex", flexDirection: "row-reverse", backgroundColor: "#ffebf0", padding: "40px", borderRadius: "10px", marginBottom: "30px" }}>
                 <div className={Styles.Home_hero}>
                     <div className={Styles.Home_hero_left}>
-                        <h1>🚀 Oportunidades y Crecimiento</h1>
+                        <h1>🚀 Desarrollo y Turismo</h1>
                         <p>
-                            Nos enfocamos en crear espacios donde los samanenses puedan crecer personal y profesionalmente.
+                            Con la apertura de carreteras y aeropuertos, Samaná se ha convertido en un destino turístico de primer nivel.
+                            Hoteles, excursiones y actividades como el avistamiento de ballenas generan un impacto positivo en la economía local.
                         </p>
                     </div>
                     <div className={Styles.Home_hero_right}>
-                        <img src="https://picsum.photos/500/500?random=3" alt="Crecimiento" style={{ borderRadius: "30px", boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)" }} />
+                        <img src={samanaImg4} alt="Turismo" style={{ borderRadius: "30px", boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)", width: "100%" }} />
                     </div>
                 </div>
             </div>
             <div className={Styles.Home_section} style={{ backgroundColor: "#e6ffe6", padding: "40px", borderRadius: "10px", marginBottom: "30px" }}>
                 <div className={Styles.Home_hero}>
                     <div className={Styles.Home_hero_left}>
-                        <h1>💙 Historias Inspiradoras</h1>
+                        <h1>💙 Comunidad y Conexión</h1>
                         <p>
-                            Conoce las historias de samanenses que han llevado el nombre de Samaná en alto.
+                            Samaná no solo es un destino turístico, es un hogar. La comunidad samanense, dentro y fuera de la isla,
+                            mantiene sus tradiciones vivas y crea lazos inquebrantables de solidaridad y hermandad.
                         </p>
                     </div>
                     <div className={Styles.Home_hero_right}>
-                        <img src="https://picsum.photos/600/350?random=4" alt="Historias Inspiradoras" style={{ borderRadius: "50px 10px 50px 10px", boxShadow: "0px 6px 12px rgba(0, 0, 0, 0.3)" }} />
+                        <img src={samanaImg5} alt="Comunidad y Conexión" style={{ borderRadius: "50px 10px 50px 10px", boxShadow: "0px 6px 12px rgba(0, 0, 0, 0.3)", width: "100%" }} />
                     </div>
                 </div>
             </div>

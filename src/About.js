@@ -1,12 +1,15 @@
 import Styles from "./about.module.css";
+import samanaImg5 from './samana_img/WhatsApp Image 2025-02-06 at 18.53.59.jpeg';
+
 
 const About = () => {
     const imagen = "https://picsum.photos/250/250";
+    //const image = `https://picsum.photos/250/250?random=${i}`
 
     const founderArray = [
-        { name: "Maxwell Dickson", position: "President & Organizer", image: imagen }, 
-        { name: "Leonel Bonilla", position: "Co-founder & Coordinator", image: imagen },
-        { name: "Marie Cabrera", position: "Co-founder & Event Planner", image: imagen },
+        { name: "Maxwell Dickson", position: "President & Organizer",  image:  `https://picsum.photos/250/250?random=${11}`}, 
+        { name: "Leonel Bonilla", position: "Co-founder & Coordinator", image: `https://picsum.photos/250/250?random=${7}`},
+        { name: "Marie Merejo", position: "Co-founder & Event Planner", image: `https://picsum.photos/250/250?random=${9}`},
        
     ];
 
@@ -30,7 +33,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className={Styles.About_box_hero_right}>
-                        <img src={imagen} alt="Sobre nosotros" />
+                        <img src={samanaImg5} alt="Sobre nosotros" />
                     </div>
                 </div>
 
@@ -48,7 +51,7 @@ const About = () => {
                     {founderArray.map((el, i) => (
                         <div key={i} className={Styles.About_box_founder_box_img}>
                             <img   
-                                src={`https://picsum.photos/250/250?random=${i}`} 
+                                src={el.image} 
                                 alt={el.name}  
                                 width="250" 
                                 height="250"
