@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8f01240.css",
-    "main.js": "/static/js/main.f14778f1.js",
-    "static/js/453.38eb46ae.chunk.js": "/static/js/453.38eb46ae.chunk.js",
-    "static/media/samanaFlyer.jpeg": "/static/media/samanaFlyer.0b70bdc855f58d125f41.jpeg",
-    "static/media/WhatsApp Image 2025-02-06 at 18.53.59.jpeg": "/static/media/WhatsApp Image 2025-02-06 at 18.53.59.b78293a244e591f62a03.jpeg",
-    "static/media/images (1).jpeg": "/static/media/images (1).07517966f5cc6a25ac0b.jpeg",
-    "static/media/download.jpeg": "/static/media/download.facd98d79d6721eb7768.jpeg",
-    "static/media/images (3).jpeg": "/static/media/images (3).e18b7ac5696b0bf0d4c4.jpeg",
-    "static/media/images (2).jpeg": "/static/media/images (2).46a99cf41701559f0100.jpeg",
-    "index.html": "/index.html",
-    "main.d8f01240.css.map": "/static/css/main.d8f01240.css.map",
-    "main.f14778f1.js.map": "/static/js/main.f14778f1.js.map",
-    "453.38eb46ae.chunk.js.map": "/static/js/453.38eb46ae.chunk.js.map"
+    "main.css": "/samanaausentesapp/static/css/main.d8f01240.css",
+    "main.js": "/samanaausentesapp/static/js/main.f1d07efc.js",
+    "static/js/453.38eb46ae.chunk.js": "/samanaausentesapp/static/js/453.38eb46ae.chunk.js",
+    "static/media/samanaFlyer.jpeg": "/samanaausentesapp/static/media/samanaFlyer.0b70bdc855f58d125f41.jpeg",
+    "static/media/WhatsApp Image 2025-02-06 at 18.53.59.jpeg": "/samanaausentesapp/static/media/WhatsApp Image 2025-02-06 at 18.53.59.b78293a244e591f62a03.jpeg",
+    "static/media/images (1).jpeg": "/samanaausentesapp/static/media/images (1).07517966f5cc6a25ac0b.jpeg",
+    "static/media/download.jpeg": "/samanaausentesapp/static/media/download.facd98d79d6721eb7768.jpeg",
+    "static/media/images (3).jpeg": "/samanaausentesapp/static/media/images (3).e18b7ac5696b0bf0d4c4.jpeg",
+    "static/media/images (2).jpeg": "/samanaausentesapp/static/media/images (2).46a99cf41701559f0100.jpeg",
+    "index.html": "/samanaausentesapp/index.html",
+    "main.d8f01240.css.map": "/samanaausentesapp/static/css/main.d8f01240.css.map",
+    "main.f1d07efc.js.map": "/samanaausentesapp/static/js/main.f1d07efc.js.map",
+    "453.38eb46ae.chunk.js.map": "/samanaausentesapp/static/js/453.38eb46ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8f01240.css",
-    "static/js/main.f14778f1.js"
+    "static/js/main.f1d07efc.js"
   ]
 }
