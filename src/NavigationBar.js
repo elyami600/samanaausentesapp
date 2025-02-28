@@ -11,7 +11,7 @@ const NavigationBar = () => {
       alignItems: "center", 
       justifyContent: "center"
     }}>
-      <h2 style={{ margin: 0, marginRight: "50px" }}>Samana Ausentes</h2>
+      <h2 style={{ margin: 0, marginRight: "50px" }}><Link to="/" style={linkStyle} onMouseEnter={(e) => e.target.style.color = hoverStyle.color} onMouseLeave={(e) => e.target.style.color = linkStyle.color}>Samaná Ausentes</Link></h2>
       <div style={{ display: "flex", gap: "25px" }}>
         <Link to="/" style={linkStyle} onMouseEnter={(e) => e.target.style.color = hoverStyle.color} onMouseLeave={(e) => e.target.style.color = linkStyle.color}>Home</Link>
         <Link to="/about" style={linkStyle} onMouseEnter={(e) => e.target.style.color = hoverStyle.color} onMouseLeave={(e) => e.target.style.color = linkStyle.color}>About</Link>
