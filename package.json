@@ -2,7 +2,7 @@
   "name": "samanaausentesapp",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://elyami600.github.io/samanaausentesapp/",
+  "homepage": "https://elyami600.github.io/samanaausentesapp",
   "dependencies": {
     "@testing-library/react": "^13.4.0",
     "bootstrap": "^5.3.3",
