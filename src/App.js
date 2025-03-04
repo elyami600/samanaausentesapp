@@ -4,6 +4,7 @@ import NavigationBar from "./NavigationBar";
 import Home from "./Home";
 import About from "./About";
 import Event from "./Event";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/event" element={<Event />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
