@@ -25,7 +25,7 @@ const Home = () => {
                     playsInline 
                     className={Styles.bannerVideo}
                 >
-                    <source src={samanaVideo} type="video/mp4" />
+                    <source src={samanaVideo ||samanaImg2} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className={Styles.bannerText}>
