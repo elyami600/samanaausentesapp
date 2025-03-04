@@ -6,6 +6,8 @@ const About = () => {
         { name: "Maxwell Dickson", position: "President & Organizer", image: `https://picsum.photos/250/250?random=11` }, 
         { name: "Leonel Bonilla", position: "Co-founder & Coordinator", image: `https://picsum.photos/250/250?random=7` },
         { name: "Marie Merejo", position: "Co-founder & Event Planner", image: `https://picsum.photos/250/250?random=9` },
+        { name: "Angel Negro", position: "Co-founder & Event Planner", image: `https://picsum.photos/250/250?random=9` },
+        { name: "Alix", position: "Co-founder & Event Planner", image: `https://picsum.photos/250/250?random=9` },
     ];
 
     const factsArray = [
