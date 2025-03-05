@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/samanaausentesapp/static/css/main.a03eec12.css",
-    "main.js": "/samanaausentesapp/static/js/main.d8629992.js",
+    "main.js": "/samanaausentesapp/static/js/main.31000c66.js",
     "static/js/453.38eb46ae.chunk.js": "/samanaausentesapp/static/js/453.38eb46ae.chunk.js",
     "static/media/samanaVideo.mp4": "/samanaausentesapp/static/media/samanaVideo.ed8acaaf44bc27152aa3.mp4",
     "static/media/samanaFlyer.jpeg": "/samanaausentesapp/static/media/samanaFlyer.0b70bdc855f58d125f41.jpeg",
+    "static/media/pompi.jpg": "/samanaausentesapp/static/media/pompi.f4da5c1d289b9f17f759.jpg",
     "static/media/yp.jpeg": "/samanaausentesapp/static/media/yp.f15ccd7c29e348de47a6.jpeg",
     "static/media/bannerSamanaUsente.jpeg": "/samanaausentesapp/static/media/bannerSamanaUsente.89905c782c5f17a5f550.jpeg",
     "static/media/maxwell.jpeg": "/samanaausentesapp/static/media/maxwell.db2c748319438f351ec5.jpeg",
@@ -18,11 +19,11 @@
     "static/media/images (2).jpeg": "/samanaausentesapp/static/media/images (2).46a99cf41701559f0100.jpeg",
     "index.html": "/samanaausentesapp/index.html",
     "main.a03eec12.css.map": "/samanaausentesapp/static/css/main.a03eec12.css.map",
-    "main.d8629992.js.map": "/samanaausentesapp/static/js/main.d8629992.js.map",
+    "main.31000c66.js.map": "/samanaausentesapp/static/js/main.31000c66.js.map",
     "453.38eb46ae.chunk.js.map": "/samanaausentesapp/static/js/453.38eb46ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a03eec12.css",
-    "static/js/main.d8629992.js"
+    "static/js/main.31000c66.js"
   ]
 }
