@@ -6,8 +6,7 @@ import samanaImg1 from './samana_img/images (1).jpeg';
 import samanaImg2 from './samana_img/download.jpeg';
 import samanaImg3 from './samana_img/images (3).jpeg';
 import samanaImg4 from './samana_img/images (2).jpeg';
-import samanaImg5 from './samana_img/imagessmaasas.jpeg';
-
+import samanaImg5 from './samana_img/samanaPuentes.jpeg';
 // Import video
 import samanaVideo from './samana_img/samanaVideo.mp4';
 
@@ -25,7 +24,7 @@ const Home = () => {
                     playsInline 
                     className={Styles.bannerVideo}
                 >
-                    <source src={samanaVideo ||samanaImg2} type="video/mp4" />
+                    <source src={samanaVideo ||samanaImg5} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className={Styles.bannerText}>

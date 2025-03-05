@@ -1,13 +1,18 @@
 import Styles from "./about.module.css";
-import samanaImg5 from './samana_img/WhatsApp Image 2025-02-06 at 18.53.59.jpeg';
+import yp from './samana_img/yp.jpeg'
+import mr from './samana_img/mr.jpeg'
+import mx from './samana_img/maxwell.jpeg'
+import alix from './samana_img/alix.jpeg'
+import angel from './samana_img/angel.jpeg'
+import bannerSamanaAusente from './samana_img/bannerSamanaUsente.jpeg'
 
 const About = () => {
     const founderArray = [
-        { name: "Maxwell Dickson", position: "President & Organizer", image: `https://picsum.photos/250/250?random=11` }, 
-        { name: "Leonel Bonilla", position: "Co-founder & Coordinator", image: `https://picsum.photos/250/250?random=7` },
-        { name: "Marie Merejo", position: "Co-founder & Event Planner", image: `https://picsum.photos/250/250?random=9` },
-        { name: "Angel Negro", position: "Co-founder & Event Planner", image: `https://picsum.photos/250/250?random=9` },
-        { name: "Alix", position: "Co-founder & Event Planner", image: `https://picsum.photos/250/250?random=9` },
+        { name: "Maxwell Dickson", position: "President & Organizer", image: mx}, 
+        { name: "Leonel Bonilla", position: "Co-founder & Coordinator", image: yp },
+        { name: "Marie Merejo", position: "Co-founder & Event Planner", image: mr },
+        { name: "Dany Reyes", position: "Influencer & Event Planner", image: angel },
+        { name: "Victor J Deaza", position: "Logistician & Event Planner", image: alix},
     ];
 
     const factsArray = [
@@ -23,7 +28,7 @@ const About = () => {
                 {/* 🌍 Hero Section */}
                 <section className={Styles.About_box_hero}>
                     <div className={Styles.About_box_hero_left}>
-                        <h1>🌎 Sobre Nosotros – Unidos por Samaná</h1>
+                        <h1>🌎 Samanenses Ausentes</h1>
                         <p>
                             <strong>Samanenses Ausentes</strong> es más que un evento, es un movimiento que une a
                             todos los samanenses en el exterior para celebrar nuestra identidad, cultura y lazos familiares.
@@ -33,7 +38,7 @@ const About = () => {
                     </div>
                     <div className={Styles.About_box_hero_right}>
                         <img 
-                            src={samanaImg5} 
+                            src={bannerSamanaAusente} 
                             alt="Sobre nosotros" 
                             className={Styles.responsiveImage} 
                             loading="lazy"
