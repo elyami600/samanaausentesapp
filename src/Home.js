@@ -29,7 +29,7 @@ const Home = () => {
                     Your browser does not support the video tag.
                 </video>
                 <div className={Styles.bannerText}>
-                    <h1>🌎 Descubre Samaná</h1>
+                    <h1>🌎Samaná Ausentes</h1>
                     <p>Un paraíso natural lleno de historia, cultura y belleza inigualable.</p>
                 </div>
             </section>
