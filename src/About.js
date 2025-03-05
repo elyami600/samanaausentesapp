@@ -5,10 +5,12 @@ import mx from './samana_img/maxwell.jpeg'
 import alix from './samana_img/alix.jpeg'
 import angel from './samana_img/angel.jpeg'
 import bannerSamanaAusente from './samana_img/bannerSamanaUsente.jpeg'
+import pompi from './samana_img/pompi.jpg'
 
 const About = () => {
     const founderArray = [
         { name: "Maxwell Dickson", position: "President & Organizer", image: mx}, 
+        { name: "Pompilio Demoya", position: "Co-founder & Coordinator", image: pompi },
         { name: "Leonel Bonilla", position: "Co-founder & Coordinator", image: yp },
         { name: "Marie Merejo", position: "Co-founder & Event Planner", image: mr },
         { name: "Dany Reyes", position: "Influencer & Event Planner", image: angel },
