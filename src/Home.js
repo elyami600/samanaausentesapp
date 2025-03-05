@@ -31,7 +31,6 @@ const Home = () => {
                 <div className={Styles.bannerText}>
                     <h1>🌎Samaná Ausentes</h1>
                     <p>En esas playas donde nací, para soñar...</p>
-                    <p>En esas playas donde nací, oh Samaná</p>
                 </div>
             </section>
 
