@@ -30,7 +30,8 @@ const Home = () => {
                 </video>
                 <div className={Styles.bannerText}>
                     <h1>🌎Samaná Ausentes</h1>
-                    <p>Un paraíso natural lleno de historia, cultura y belleza inigualable.</p>
+                    <p>En esas playas donde nací, para soñar...</p>
+                    <p>En esas playas donde nací, oh Samaná</p>
                 </div>
             </section>
 
